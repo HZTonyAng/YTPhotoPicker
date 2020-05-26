@@ -1,0 +1,6 @@
+framework module Pods_YTPhotoPicker {
+  umbrella header "Pods-YTPhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

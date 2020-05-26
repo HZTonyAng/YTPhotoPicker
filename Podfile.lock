@@ -1,0 +1,33 @@
+PODS:
+  - HXPhotoPicker (2.4.3)
+  - Masonry (1.1.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - HXPhotoPicker (~> 2.4.3)
+  - Masonry
+  - SDWebImage
+  - YYKit
+
+SPEC REPOS:
+  http://stash.webuy.ai/scm/ios/JLSpec.git:
+    - YYKit
+  trunk:
+    - HXPhotoPicker
+    - Masonry
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  HXPhotoPicker: a4c8cd48cff76d18402740bcf59e7fae86fc16f9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  YYKit: 76a9ade4bbf492e53559ce07f15e9550c9e2095c
+
+PODFILE CHECKSUM: 25d5e512ea7f29d240f7bcee641e47461e0fb53a
+
+COCOAPODS: 1.9.2

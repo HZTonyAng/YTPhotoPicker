@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  YTPhotoPicker
+//
+//  Created by TonyAng on 2020/5/25.
+//  Copyright © 2020 TonyAng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import <SDWebImage/SDWebImage.h>
+
+#if __has_include(<AFNetworking/AFNetworking.h>)
+#import <AFNetworking/AFNetworking.h>
+#elif __has_include("AFNetworking.h")
+#import "AFNetworking.h"
+#endif
+
+#endif /* PrefixHeader_pch */

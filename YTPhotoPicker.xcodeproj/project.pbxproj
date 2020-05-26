@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51044037BF51AEB4010ADF29 /* Pods_YTPhotoPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492312FD838A17490CF8E77E /* Pods_YTPhotoPicker.framework */; };
+		7150E2F1247BCE8400AD9766 /* YTSelectPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E2F0247BCE8400AD9766 /* YTSelectPhotoView.m */; };
+		7150E304247BED0200AD9766 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E2FA247BED0200AD9766 /* AFURLResponseSerialization.m */; };
+		7150E305247BED0200AD9766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E2FB247BED0200AD9766 /* AFHTTPSessionManager.m */; };
+		7150E306247BED0200AD9766 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E2FD247BED0200AD9766 /* AFURLSessionManager.m */; };
+		7150E307247BED0200AD9766 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E2FE247BED0200AD9766 /* AFURLRequestSerialization.m */; };
+		7150E308247BED0200AD9766 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E300247BED0200AD9766 /* AFNetworkReachabilityManager.m */; };
+		7150E309247BED0200AD9766 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150E301247BED0200AD9766 /* AFSecurityPolicy.m */; };
+		71E1E1FA2477EBD20029F846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E1F92477EBD20029F846 /* AppDelegate.m */; };
+		71E1E2002477EBD20029F846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E1FF2477EBD20029F846 /* ViewController.m */; };
+		71E1E2032477EBD20029F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1E2012477EBD20029F846 /* Main.storyboard */; };
+		71E1E2052477EBD40029F846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E1E2042477EBD40029F846 /* Assets.xcassets */; };
+		71E1E2082477EBD40029F846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1E2062477EBD40029F846 /* LaunchScreen.storyboard */; };
+		71E1E20B2477EBD40029F846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E20A2477EBD40029F846 /* main.m */; };
+		71E1E2152477EBD40029F846 /* YTPhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E2142477EBD40029F846 /* YTPhotoPickerTests.m */; };
+		71E1E2202477EBD50029F846 /* YTPhotoPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E1E21F2477EBD50029F846 /* YTPhotoPickerUITests.m */; };
+		CE85F72735B39DCB8D6956D9 /* Pods_YTPhotoPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A310D1CAB40C45F7EAA58E9B /* Pods_YTPhotoPickerTests.framework */; };
+		FE52A85462DC44F743D9DF67 /* Pods_YTPhotoPicker_YTPhotoPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12E55B3F95342450FFA92D /* Pods_YTPhotoPicker_YTPhotoPickerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E1E2112477EBD40029F846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E1E1ED2477EBD20029F846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E1E1F42477EBD20029F846;
+			remoteInfo = YTPhotoPicker;
+		};
+		71E1E21C2477EBD50029F846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E1E1ED2477EBD20029F846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E1E1F42477EBD20029F846;
+			remoteInfo = YTPhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01246CD97FC06A7104A0A6A2 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPicker-YTPhotoPickerUITests.debug.xcconfig"; path = "Target Support Files/Pods-YTPhotoPicker-YTPhotoPickerUITests/Pods-YTPhotoPicker-YTPhotoPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1273ECC768E2E63C12F235C8 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPicker-YTPhotoPickerUITests.release.xcconfig"; path = "Target Support Files/Pods-YTPhotoPicker-YTPhotoPickerUITests/Pods-YTPhotoPicker-YTPhotoPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34AF3935E1133EB39C462402 /* Pods-YTPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPicker.release.xcconfig"; path = "Target Support Files/Pods-YTPhotoPicker/Pods-YTPhotoPicker.release.xcconfig"; sourceTree = "<group>"; };
+		41CA37D4CB9EF6FA69A468D0 /* Pods-YTPhotoPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPickerTests.release.xcconfig"; path = "Target Support Files/Pods-YTPhotoPickerTests/Pods-YTPhotoPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		492312FD838A17490CF8E77E /* Pods_YTPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B12E55B3F95342450FFA92D /* Pods_YTPhotoPicker_YTPhotoPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTPhotoPicker_YTPhotoPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7150E2EF247BCE8400AD9766 /* YTSelectPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSelectPhotoView.h; sourceTree = "<group>"; };
+		7150E2F0247BCE8400AD9766 /* YTSelectPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSelectPhotoView.m; sourceTree = "<group>"; };
+		7150E2F2247BD22300AD9766 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7150E2F6247BED0200AD9766 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7150E2F7247BED0200AD9766 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7150E2F8247BED0200AD9766 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7150E2F9247BED0200AD9766 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7150E2FA247BED0200AD9766 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7150E2FB247BED0200AD9766 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7150E2FC247BED0200AD9766 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7150E2FD247BED0200AD9766 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7150E2FE247BED0200AD9766 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7150E2FF247BED0200AD9766 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7150E300247BED0200AD9766 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7150E301247BED0200AD9766 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7150E302247BED0200AD9766 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		7150E303247BED0200AD9766 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		71E1E1F52477EBD20029F846 /* YTPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E1E1F82477EBD20029F846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71E1E1F92477EBD20029F846 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71E1E1FE2477EBD20029F846 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71E1E1FF2477EBD20029F846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71E1E2022477EBD20029F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E1E2042477EBD40029F846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E1E2072477EBD40029F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E1E2092477EBD40029F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E1E20A2477EBD40029F846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E1E2102477EBD40029F846 /* YTPhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E1E2142477EBD40029F846 /* YTPhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPhotoPickerTests.m; sourceTree = "<group>"; };
+		71E1E2162477EBD40029F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E1E21B2477EBD40029F846 /* YTPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E1E21F2477EBD50029F846 /* YTPhotoPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPhotoPickerUITests.m; sourceTree = "<group>"; };
+		71E1E2212477EBD50029F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A310D1CAB40C45F7EAA58E9B /* Pods_YTPhotoPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTPhotoPickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92C3DC0D1C27A35D670A6A4 /* Pods-YTPhotoPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPickerTests.debug.xcconfig"; path = "Target Support Files/Pods-YTPhotoPickerTests/Pods-YTPhotoPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC16946D18D1EC0A03C142EA /* Pods-YTPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPhotoPicker.debug.xcconfig"; path = "Target Support Files/Pods-YTPhotoPicker/Pods-YTPhotoPicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E1E1F22477EBD20029F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51044037BF51AEB4010ADF29 /* Pods_YTPhotoPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E20D2477EBD40029F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85F72735B39DCB8D6956D9 /* Pods_YTPhotoPickerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E2182477EBD40029F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE52A85462DC44F743D9DF67 /* Pods_YTPhotoPicker_YTPhotoPickerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417FD74E0338ACE55229AA88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492312FD838A17490CF8E77E /* Pods_YTPhotoPicker.framework */,
+				5B12E55B3F95342450FFA92D /* Pods_YTPhotoPicker_YTPhotoPickerUITests.framework */,
+				A310D1CAB40C45F7EAA58E9B /* Pods_YTPhotoPickerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6974223F107D8950BB37DD6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC16946D18D1EC0A03C142EA /* Pods-YTPhotoPicker.debug.xcconfig */,
+				34AF3935E1133EB39C462402 /* Pods-YTPhotoPicker.release.xcconfig */,
+				01246CD97FC06A7104A0A6A2 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.debug.xcconfig */,
+				1273ECC768E2E63C12F235C8 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.release.xcconfig */,
+				D92C3DC0D1C27A35D670A6A4 /* Pods-YTPhotoPickerTests.debug.xcconfig */,
+				41CA37D4CB9EF6FA69A468D0 /* Pods-YTPhotoPickerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7150E2EE247BCE8400AD9766 /* YTSelectPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				7150E2EF247BCE8400AD9766 /* YTSelectPhotoView.h */,
+				7150E2F0247BCE8400AD9766 /* YTSelectPhotoView.m */,
+			);
+			path = YTSelectPhotoView;
+			sourceTree = "<group>";
+		};
+		7150E2F5247BED0200AD9766 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7150E2F6247BED0200AD9766 /* AFSecurityPolicy.h */,
+				7150E2F7247BED0200AD9766 /* AFNetworkReachabilityManager.h */,
+				7150E2F8247BED0200AD9766 /* AFURLSessionManager.h */,
+				7150E2F9247BED0200AD9766 /* AFURLRequestSerialization.h */,
+				7150E2FA247BED0200AD9766 /* AFURLResponseSerialization.m */,
+				7150E2FB247BED0200AD9766 /* AFHTTPSessionManager.m */,
+				7150E2FC247BED0200AD9766 /* AFURLResponseSerialization.h */,
+				7150E2FD247BED0200AD9766 /* AFURLSessionManager.m */,
+				7150E2FE247BED0200AD9766 /* AFURLRequestSerialization.m */,
+				7150E2FF247BED0200AD9766 /* AFNetworking.h */,
+				7150E300247BED0200AD9766 /* AFNetworkReachabilityManager.m */,
+				7150E301247BED0200AD9766 /* AFSecurityPolicy.m */,
+				7150E302247BED0200AD9766 /* AFCompatibilityMacros.h */,
+				7150E303247BED0200AD9766 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		71E1E1EC2477EBD20029F846 = {
+			isa = PBXGroup;
+			children = (
+				71E1E1F72477EBD20029F846 /* YTPhotoPicker */,
+				71E1E2132477EBD40029F846 /* YTPhotoPickerTests */,
+				71E1E21E2477EBD50029F846 /* YTPhotoPickerUITests */,
+				71E1E1F62477EBD20029F846 /* Products */,
+				6974223F107D8950BB37DD6A /* Pods */,
+				417FD74E0338ACE55229AA88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E1E1F62477EBD20029F846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E1E1F52477EBD20029F846 /* YTPhotoPicker.app */,
+				71E1E2102477EBD40029F846 /* YTPhotoPickerTests.xctest */,
+				71E1E21B2477EBD40029F846 /* YTPhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E1E1F72477EBD20029F846 /* YTPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				71E1E1F82477EBD20029F846 /* AppDelegate.h */,
+				71E1E1F92477EBD20029F846 /* AppDelegate.m */,
+				71E1E1FE2477EBD20029F846 /* ViewController.h */,
+				71E1E1FF2477EBD20029F846 /* ViewController.m */,
+				7150E2EE247BCE8400AD9766 /* YTSelectPhotoView */,
+				71E1E2012477EBD20029F846 /* Main.storyboard */,
+				7150E2F2247BD22300AD9766 /* PrefixHeader.pch */,
+				7150E2F5247BED0200AD9766 /* AFNetworking */,
+				71E1E2042477EBD40029F846 /* Assets.xcassets */,
+				71E1E2062477EBD40029F846 /* LaunchScreen.storyboard */,
+				71E1E2092477EBD40029F846 /* Info.plist */,
+				71E1E20A2477EBD40029F846 /* main.m */,
+			);
+			path = YTPhotoPicker;
+			sourceTree = "<group>";
+		};
+		71E1E2132477EBD40029F846 /* YTPhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E1E2142477EBD40029F846 /* YTPhotoPickerTests.m */,
+				71E1E2162477EBD40029F846 /* Info.plist */,
+			);
+			path = YTPhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		71E1E21E2477EBD50029F846 /* YTPhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71E1E21F2477EBD50029F846 /* YTPhotoPickerUITests.m */,
+				71E1E2212477EBD50029F846 /* Info.plist */,
+			);
+			path = YTPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E1E1F42477EBD20029F846 /* YTPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E1E2242477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPicker" */;
+			buildPhases = (
+				6D932E532CEFFEFB7E302AF2 /* [CP] Check Pods Manifest.lock */,
+				71E1E1F12477EBD20029F846 /* Sources */,
+				71E1E1F22477EBD20029F846 /* Frameworks */,
+				71E1E1F32477EBD20029F846 /* Resources */,
+				3297860A04CA21942FC79BA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTPhotoPicker;
+			productName = YTPhotoPicker;
+			productReference = 71E1E1F52477EBD20029F846 /* YTPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E1E20F2477EBD40029F846 /* YTPhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E1E2272477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPickerTests" */;
+			buildPhases = (
+				F77719FA5C73D1B3FABF1B17 /* [CP] Check Pods Manifest.lock */,
+				71E1E20C2477EBD40029F846 /* Sources */,
+				71E1E20D2477EBD40029F846 /* Frameworks */,
+				71E1E20E2477EBD40029F846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E1E2122477EBD40029F846 /* PBXTargetDependency */,
+			);
+			name = YTPhotoPickerTests;
+			productName = YTPhotoPickerTests;
+			productReference = 71E1E2102477EBD40029F846 /* YTPhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71E1E21A2477EBD40029F846 /* YTPhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E1E22A2477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPickerUITests" */;
+			buildPhases = (
+				5EA163E6B7952E2733FAE350 /* [CP] Check Pods Manifest.lock */,
+				71E1E2172477EBD40029F846 /* Sources */,
+				71E1E2182477EBD40029F846 /* Frameworks */,
+				71E1E2192477EBD40029F846 /* Resources */,
+				D2B222B920FD53D8840B4B75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E1E21D2477EBD50029F846 /* PBXTargetDependency */,
+			);
+			name = YTPhotoPickerUITests;
+			productName = YTPhotoPickerUITests;
+			productReference = 71E1E21B2477EBD40029F846 /* YTPhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E1E1ED2477EBD20029F846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = TonyAng;
+				TargetAttributes = {
+					71E1E1F42477EBD20029F846 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					71E1E20F2477EBD40029F846 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 71E1E1F42477EBD20029F846;
+					};
+					71E1E21A2477EBD40029F846 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 71E1E1F42477EBD20029F846;
+					};
+				};
+			};
+			buildConfigurationList = 71E1E1F02477EBD20029F846 /* Build configuration list for PBXProject "YTPhotoPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E1E1EC2477EBD20029F846;
+			productRefGroup = 71E1E1F62477EBD20029F846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E1E1F42477EBD20029F846 /* YTPhotoPicker */,
+				71E1E20F2477EBD40029F846 /* YTPhotoPickerTests */,
+				71E1E21A2477EBD40029F846 /* YTPhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E1E1F32477EBD20029F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E1E2082477EBD40029F846 /* LaunchScreen.storyboard in Resources */,
+				71E1E2052477EBD40029F846 /* Assets.xcassets in Resources */,
+				71E1E2032477EBD20029F846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E20E2477EBD40029F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E2192477EBD40029F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3297860A04CA21942FC79BA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker/Pods-YTPhotoPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker/Pods-YTPhotoPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker/Pods-YTPhotoPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA163E6B7952E2733FAE350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPhotoPicker-YTPhotoPickerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D932E532CEFFEFB7E302AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPhotoPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B222B920FD53D8840B4B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker-YTPhotoPickerUITests/Pods-YTPhotoPicker-YTPhotoPickerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker-YTPhotoPickerUITests/Pods-YTPhotoPicker-YTPhotoPickerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YTPhotoPicker-YTPhotoPickerUITests/Pods-YTPhotoPicker-YTPhotoPickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77719FA5C73D1B3FABF1B17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPhotoPickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E1E1F12477EBD20029F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E1E2002477EBD20029F846 /* ViewController.m in Sources */,
+				7150E308247BED0200AD9766 /* AFNetworkReachabilityManager.m in Sources */,
+				71E1E1FA2477EBD20029F846 /* AppDelegate.m in Sources */,
+				7150E2F1247BCE8400AD9766 /* YTSelectPhotoView.m in Sources */,
+				7150E306247BED0200AD9766 /* AFURLSessionManager.m in Sources */,
+				7150E305247BED0200AD9766 /* AFHTTPSessionManager.m in Sources */,
+				7150E309247BED0200AD9766 /* AFSecurityPolicy.m in Sources */,
+				71E1E20B2477EBD40029F846 /* main.m in Sources */,
+				7150E304247BED0200AD9766 /* AFURLResponseSerialization.m in Sources */,
+				7150E307247BED0200AD9766 /* AFURLRequestSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E20C2477EBD40029F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E1E2152477EBD40029F846 /* YTPhotoPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1E2172477EBD40029F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E1E2202477EBD50029F846 /* YTPhotoPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E1E2122477EBD40029F846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E1E1F42477EBD20029F846 /* YTPhotoPicker */;
+			targetProxy = 71E1E2112477EBD40029F846 /* PBXContainerItemProxy */;
+		};
+		71E1E21D2477EBD50029F846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E1E1F42477EBD20029F846 /* YTPhotoPicker */;
+			targetProxy = 71E1E21C2477EBD50029F846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E1E2012477EBD20029F846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E1E2022477EBD20029F846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E1E2062477EBD40029F846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E1E2072477EBD40029F846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E1E2222477EBD50029F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71E1E2232477EBD50029F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E1E2252477EBD50029F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC16946D18D1EC0A03C142EA /* Pods-YTPhotoPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				GCC_PREFIX_HEADER = /Users/tonyang/Desktop/YTPhotoPicker/YTPhotoPicker/PrefixHeader.pch;
+				INFOPLIST_FILE = YTPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E1E2262477EBD50029F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AF3935E1133EB39C462402 /* Pods-YTPhotoPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				GCC_PREFIX_HEADER = /Users/tonyang/Desktop/YTPhotoPicker/YTPhotoPicker/PrefixHeader.pch;
+				INFOPLIST_FILE = YTPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71E1E2282477EBD50029F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92C3DC0D1C27A35D670A6A4 /* Pods-YTPhotoPickerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				INFOPLIST_FILE = YTPhotoPickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPhotoPicker.app/YTPhotoPicker";
+			};
+			name = Debug;
+		};
+		71E1E2292477EBD50029F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CA37D4CB9EF6FA69A468D0 /* Pods-YTPhotoPickerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				INFOPLIST_FILE = YTPhotoPickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPhotoPicker.app/YTPhotoPicker";
+			};
+			name = Release;
+		};
+		71E1E22B2477EBD50029F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01246CD97FC06A7104A0A6A2 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				INFOPLIST_FILE = YTPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTPhotoPicker;
+			};
+			name = Debug;
+		};
+		71E1E22C2477EBD50029F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1273ECC768E2E63C12F235C8 /* Pods-YTPhotoPicker-YTPhotoPickerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANTHYMKQB4;
+				INFOPLIST_FILE = YTPhotoPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.webuy.YTPhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTPhotoPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E1E1F02477EBD20029F846 /* Build configuration list for PBXProject "YTPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E1E2222477EBD50029F846 /* Debug */,
+				71E1E2232477EBD50029F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E1E2242477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E1E2252477EBD50029F846 /* Debug */,
+				71E1E2262477EBD50029F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E1E2272477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E1E2282477EBD50029F846 /* Debug */,
+				71E1E2292477EBD50029F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E1E22A2477EBD50029F846 /* Build configuration list for PBXNativeTarget "YTPhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E1E22B2477EBD50029F846 /* Debug */,
+				71E1E22C2477EBD50029F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E1E1ED2477EBD20029F846 /* Project object */;
+}
